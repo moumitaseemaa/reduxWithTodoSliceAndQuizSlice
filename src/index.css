@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-poppins;
+  }
+
+.btn {
+  @apply  text-lg py-3 px-6 bg-pink-500 border-[3px]  border-black  rounded-2xl;
+}
+
+.subBtn{
+  @apply  text-lg px-2 py-1 bg-pink-500 border-[3px]  border-black  rounded-xl;
+}
